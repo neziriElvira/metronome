@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #B99095;
+}
+
+.App {
+    width: 400px;
+    margin: 200px auto;
+}
+
+.metronome {
+  background:#FCB5AC;
+  text-align: center;
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.RangLine input {
+  width: 100%;
+  margin: 10px;
+}
+
+.RangLine div {
+    font-size: large;
+}
+
+.startButton button {
+  background: #B5E5CF;
+  padding: 10px;
+  border: 1px solid #709b87;
+  border-radius: 2px;
+  width: 100px;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+}
